@@ -1,28 +1,28 @@
 class Pixtuoid < Formula
   desc "Terminal pixel-art office for AI coding agents"
   homepage "https://github.com/IvanWng97/pixtuoid"
-  version "0.4.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.4.1/pixtuoid-v0.4.1-aarch64-apple-darwin.tar.gz"
-      sha256 "027c55af184a375629e1d210d382f4dc6930c9fa2108812e7c37fbe07fe7a9ae"
+      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.5.0/pixtuoid-v0.5.0-aarch64-apple-darwin.tar.gz"
+      sha256 "1d4f814bf895392e7547465ea54dde15b4a4baa694624d6129821dbf11aaab39"
     end
     on_intel do
-      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.4.1/pixtuoid-v0.4.1-x86_64-apple-darwin.tar.gz"
-      sha256 "a3459910190c9a153366f7e6202f38eb35be981869ff21dbeef29d241230f5b5"
+      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.5.0/pixtuoid-v0.5.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0ded13d909612c652860263766f8f890f56c3b7e9d7abd342b738ece2ed0004f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.4.1/pixtuoid-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ad1eaedb9f39c093a61cc76e36122f8c2e5485fc8185bc2d89fd18768f1d7f73"
+      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.5.0/pixtuoid-v0.5.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "718263c13f25836850e69edfca0029c759fe0acfe7ebf37e42c418385ce45da0"
     end
     on_intel do
-      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.4.1/pixtuoid-v0.4.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "6fadb5dca601fedf9144659886318acfb7ef150477e33f7e5f74c208f4feed68"
+      url "https://github.com/IvanWng97/pixtuoid/releases/download/v0.5.0/pixtuoid-v0.5.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "17156e44aebf8eed3dcf59cd9f856e41d432338a5bfbb564bba6be31c5d93ddb"
     end
   end
 
